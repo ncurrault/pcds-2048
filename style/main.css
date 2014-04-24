@@ -2,7 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  /* background: #faf8ef; */
+  background: blue;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -20,7 +21,8 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  color: yellow;
+  float: left;  }
 
 @-webkit-keyframes move-up {
   0% {
@@ -149,7 +151,8 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  /* background: #bbada0; */
+  background: rgba(255,255,0,0.75);
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -484,7 +487,9 @@ hr {
 .game-intro {
   float: left;
   line-height: 42px;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  color: rgb(255,255,100);
+  }
 
 .restart-button {
   display: inline-block;
@@ -714,4 +719,8 @@ hr {
 {
 	width: 100%;
 	height: 100%;
+}
+
+p {
+	color: rgb(255,255,25)
 }
