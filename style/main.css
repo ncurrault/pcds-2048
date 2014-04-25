@@ -202,6 +202,7 @@ hr {
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
+      color: blue;
       display: block; }
 
 .grid-container {
@@ -721,6 +722,6 @@ hr {
 	height: 100%;
 }
 
-p {
-	color: rgb(255,255,25)
+p.below-text-nc {
+	color: rgb(0,0,255);
 }
