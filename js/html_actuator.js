@@ -63,7 +63,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   inner.classList.add("tile-inner");
   
-  if (tile.value < 2048)
+  if (tile.value <= 2048)
   {
     inner.innerHTML = '<img class="tile-pic" src = "pics/' + tile.value + '.jpg" />';
   }
